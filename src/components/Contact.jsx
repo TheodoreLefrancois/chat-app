@@ -6,7 +6,7 @@ import './Contact.css';
 const Contact =({name, avatar, isOnline})=> (
     <div className='Contact'>
         <div className='avatar'>
-            <img  className='avatar' src={avatar} alt="David_COoper_Image"/>
+            <img  className='avatar' src={avatar} alt={name}/>
         </div>
         <div className='status status-text '>
             <div className='Name'>
